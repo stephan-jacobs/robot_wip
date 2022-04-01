@@ -22,6 +22,12 @@ And then install opencv:
 * [Stereo Images OpenCV](https://docs.opencv.org/3.4.12/dd/d53/tutorial_py_depthmap.html)
 * [Capturing multiple images at once](https://stackoverflow.com/questions/29664399/capturing-video-from-two-cameras-in-opencv-at-once)
 
+
+### Using the HC-SR04
+
+* [Wiring up and using HC-SR04](https://thepihut.com/blogs/raspberry-pi-tutorials/hc-sr04-ultrasonic-range-sensor-on-the-raspberry-pi)
+
+
 ## Notes
 
 *Note1:* If you get this warning:
