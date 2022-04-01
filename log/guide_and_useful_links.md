@@ -20,6 +20,7 @@ And then install opencv:
 * [Colour Conversion in OpenCV](https://docs.opencv.org/3.4/db/d64/tutorial_js_colorspaces.html)
 * [Stereo Images Robot Operating System](http://wiki.ros.org/stereo_image_proc/Tutorials/ChoosingGoodStereoParameters)
 * [Stereo Images OpenCV](https://docs.opencv.org/3.4.12/dd/d53/tutorial_py_depthmap.html)
+* [Capturing multiple images at once](https://stackoverflow.com/questions/29664399/capturing-video-from-two-cameras-in-opencv-at-once)
 
 ## Notes
 
