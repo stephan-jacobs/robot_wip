@@ -23,10 +23,13 @@ And then install opencv:
 * [Capturing multiple images at once](https://stackoverflow.com/questions/29664399/capturing-video-from-two-cameras-in-opencv-at-once)
 
 
-### Using the HC-SR04
+### Using the HC-SR04 Ultrasonic Distance Meter 
 
 * [Wiring up and using HC-SR04](https://thepihut.com/blogs/raspberry-pi-tutorials/hc-sr04-ultrasonic-range-sensor-on-the-raspberry-pi)
 
+### Using the Adafruit DC Motor HAT
+
+* [Official Adafruit Guide](https://learn.adafruit.com/adafruit-dc-and-stepper-motor-hat-for-raspberry-pi/using-dc-motors)
 
 ## Notes
 
