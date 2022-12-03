@@ -31,6 +31,10 @@ And then install opencv:
 
 * [Official Adafruit Guide](https://learn.adafruit.com/adafruit-dc-and-stepper-motor-hat-for-raspberry-pi/using-dc-motors)
 
+### Using Midas Monocular Depth Estimation on RPi
+
+* Use this guide: [Midas v2.1 small TFLite Inference](https://github.com/ibaiGorordo/Midasv2_1_small-TFLite-Inference) (see note 2)
+
 ## Notes
 
 *Note1:* If you get this warning:
@@ -49,3 +53,4 @@ And then install opencv:
   
   `` export `PATH=/home/pi/.local/bin` ``
 
+*Note2:* The regular version of MIDAS does not seem to be compatible with RPi. It might have something to do with ARM but I'm not sure.
