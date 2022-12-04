@@ -29,11 +29,11 @@ And then install opencv:
 
 ### Using the Adafruit DC Motor HAT
 
-* [Official Adafruit Guide](https://learn.adafruit.com/adafruit-dc-and-stepper-motor-hat-for-raspberry-pi/using-dc-motors)
+* [Official Adafruit Guide](https://learn.adafruit.com/adafruit-dc-and-stepper-motor-hat-for-raspberry-pi/using-dc-motors) (see note 2)
 
 ### Using Midas Monocular Depth Estimation on RPi
 
-* Use this guide: [Midas v2.1 small TFLite Inference](https://github.com/ibaiGorordo/Midasv2_1_small-TFLite-Inference) (see note 2)
+* Use this guide: [Midas v2.1 small TFLite Inference](https://github.com/ibaiGorordo/Midasv2_1_small-TFLite-Inference) (see note 3)
 
 ## Notes
 
@@ -53,4 +53,8 @@ And then install opencv:
   
   `` export `PATH=/home/pi/.local/bin` ``
 
-*Note2:* The regular version of MIDAS does not seem to be compatible with RPi. It might have something to do with ARM but I'm not sure.
+*Note2:* On Linux, hence on the Raspberry Pi, the `keyboard` python package requires root permissions to run. So to run this script you have to run it as root.
+I had an issue though where running `sudo python3 motor_control_keyboard.py` said that `keyboard` wasn't installed. What I had to do was uninstall keyboard from pip, then run `sudo pip3 install keyboard`.
+Now I can run `sudo python3 motor_control_keyboard.py` and it works.
+
+*Note3:* The regular version of MIDAS does not seem to be compatible with RPi. It might have something to do with ARM but I'm not sure.
